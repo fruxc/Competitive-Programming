@@ -1,3 +1,6 @@
- */*            #ignore all files in each directory
- !*/*.cpp       #unignore .c files in each directory
- !.gitignore    #unignore .gitignore
+# Ignore all
+*
+# Unignore all with extensions
+!*.cpp
+# Unignore all dirs
+!*/
